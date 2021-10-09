@@ -8,8 +8,6 @@
     <Service />
     <LestBlog />
     <Team />
-    <Menutest />
-
     <Footer />
   </div>
 </template>

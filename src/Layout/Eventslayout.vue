@@ -1,19 +1,20 @@
 <template>
-  <div class="shoplayout">
+  <div class="eventlayout">
     <Navbar />
-    <Shop />
+    <Events />
     <Footer />
   </div>
 </template>
 <script>
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Shop from "../views/shop/Shopdetails";
+import Events from "../views/events/EventDe";
+
 export default {
   components: {
     Navbar,
     Footer,
-    Shop,
+    Events,
   },
 };
 </script>

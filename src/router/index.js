@@ -2,9 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import About from "../views/About";
 import Blog from "../views/Blog";
 import Cart from "../views/Cart";
+import Events from "../views/events/Events";
 import Feature from "../views/Feature";
 import Home from "../views/Home";
-import Pages from "../views/Pages";
 import Portfolio from "../views/Portfolio";
 import Shop from "../views/shop/Shop";
 const routes = [
@@ -24,9 +24,9 @@ const routes = [
     component: Portfolio,
   },
   {
-    path: "/pages",
-    name: "Pages",
-    component: Pages,
+    path: "/events",
+    name: "events",
+    component: Events,
   },
   {
     path: "/features",

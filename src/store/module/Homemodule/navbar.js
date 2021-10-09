@@ -1,13 +1,12 @@
 const state = {
   list: [
     { title: "Home", to: "/" },
+    { title: "Events", to: "/events" },
+    { title: "Hotels", to: "/hotels" },
+    { title: "Tickets", to: "/tickets" },
+    { title: "Blog", to: "/blogs" },
     { title: "About", to: "/about" },
-    { title: "Portfolio", to: "/portfolio" },
-    { title: "Features", to: "/features" },
-    { title: "Pages", to: "/pages" },
-    { title: "Blog", to: "/blog" },
-    { title: "Shop", to: "/shop" },
-    { title: "cart", to: "/cart" },
+    { title: "Contact", to: "/contact" },
   ],
 };
 const getters = {};

@@ -1,4 +1,5 @@
 import { createStore } from "vuex";
+import eventsdetails from "./module/Eventmodule/eventsdetails";
 import client from "./module/Homemodule/client";
 import homeT from "./module/Homemodule/homeT";
 import navbar from "./module/Homemodule/navbar";
@@ -16,5 +17,6 @@ export default createStore({
     client,
     shopdeatils,
     productbox,
+    eventsdetails,
   },
 });
